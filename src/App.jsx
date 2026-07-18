@@ -19,6 +19,7 @@ return(
     
     <form action={handleRemainder}>
       <input 
+      autoCapitalize="words" 
       type="text"
       name="todo"
       id="todo"
@@ -27,7 +28,7 @@ return(
       <button>Add Remainder</button>
     </form>
     <section>
-      { remainder.length !==0 ?<h2><strong>Reaminders</strong></h2> : null}
+      { remainder.length !==0 ?<h2><strong>Reaminders</strong><button className="remove-all">Remove All</button></h2> : null}
     <ul>
         {remainder.length !== 0 ? remainder.map((list ,index) => 
 <div>

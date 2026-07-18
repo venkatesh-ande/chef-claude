@@ -2,9 +2,13 @@ h2,li,input{
   font-family: inter;
   font-weight: 600;
 }
+input:focus {
+  outline: none;
+}
+
 
 .grid{
-  background-color: ;
+  
   height: 1000px;
   display: flex;
   justify-content: center;
@@ -39,19 +43,19 @@ h2,li,input{
   font-weight: 600;
 }
 .input >section{
-  background-color: ;
+  
   display: grid;
   justify-content: center;
-  align-items: top;
-  background-color: ;
+
+  
   padding: 40px 0;
 }
 .input >section> ul {
   font-weight: 700;
 }
 
-.input >section> h2{
-  margin-left: 50px;
+.input >section> h2 ,.input >section> ul> h2{
+  display: grid;
 }
 .input >section> ul >div{
   display: grid;
@@ -65,7 +69,7 @@ h2,li,input{
   
 }
 .input >section> ul >div>button{
-  background-color: ;
+  
   
   border:none;
   height: 25px;
