@@ -1,0 +1,163 @@
+h2,li,input{
+  font-family: inter;
+  font-weight: 600;
+}
+
+.grid{
+  background-color: ;
+  height: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input{
+  display: grid;
+  padding: 50px 30px;
+  box-shadow: 0px 4px 10px 6px rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
+}
+
+.input >form >input{
+  
+  height: 40px;
+  width: 200px;
+  border:none;
+  border-radius: 20px;
+  padding: 0 0 0 20px;
+  box-shadow: 0px 4px 10px 6px rgba(0, 0, 0, 0.15);
+}
+.input >form >button{
+  background-color: black;
+  color: whitesmoke;
+  border-style: none;
+  height: 40px;
+  width: 130px;
+  border-radius: 20px;
+  margin: 0 20px;
+  font-family: inter;
+  font-weight: 600;
+}
+.input >section{
+  background-color: ;
+  display: grid;
+  justify-content: center;
+  align-items: top;
+  background-color: ;
+  padding: 40px 0;
+}
+.input >section> ul {
+  font-weight: 700;
+}
+
+.input >section> h2{
+  margin-left: 50px;
+}
+.input >section> ul >div{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 2fr 1fr;
+}
+.input >section> ul >div >li{
+  padding: 10px 10px;
+  width: 150px;
+  
+}
+.input >section> ul >div>button{
+  background-color: ;
+  
+  border:none;
+  height: 25px;
+  width: 25px;
+  font-size: 15px;
+  padding: 0 0 0px 0;
+  border-radius: 13px;
+  text-align: middle;
+  background-color: transparent;
+  box-shadow: 0px 1px 10px 4px rgba(0, 0, 0, 0.15);
+  
+  
+  
+  
+}
+
+
+
+
+
+
+
+
+
+/*.login > form{
+  box-shadow: 0px 4px 10px 6px rgba(0, 0, 0, 0.15);
+  display: grid;
+  padding: 70px 50px ;
+  
+}
+.login{
+  height: 600px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin: px 0 0 0 ;
+}
+.login > form> h1{
+  display: flex;
+  justify-content: center;
+  margin: 30px 0 50px 0;
+}
+
+.login > form >input{
+  border-style: solid;
+  border-radius: 40px;
+  margin: 10px 0 20px 0 ;
+  width: 250px;
+  height: 40px;
+  padding:0 0 0 30px;
+}
+section > form >button{
+  background-color: blue;
+  height: 40px;
+  width: 280px;
+  border-style: none;
+  color: whitesmoke;
+  border-radius: 20px;
+}
+.checkbox{
+  display: flex;
+  justify-content: center;
+}
+.checkbox >fieldset{
+  
+  width: 200px;
+  padding: 40px 40px;
+}
+legend {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 12px;
+}
+
+
+.checkbox >fieldset>form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.checkbox >fieldset>form >button{
+  background-color: blue;
+  height: 30px;
+  width: 100px;
+  border-style: none;
+  color: whitesmoke;
+  border-radius: 20px;
+  margin: 30px 0 0 0;
+}
+.checkbox >fieldset >form >label >input{
+padding: 20px 0;
+}
+*/
