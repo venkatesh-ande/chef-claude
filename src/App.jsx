@@ -1,7 +1,7 @@
 import React from "react"
 
 export default function App(){
-  const [remainder ,setRemainder] = React.useState(["Wake Up","brush"]);
+  const [remainder ,setRemainder] = React.useState([]);
   
   function handleRemainder(formData){
     const work = formData.get("todo")

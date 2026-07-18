@@ -1,6 +1,6 @@
 {
   "name": "forms",
-  "homepage":"https://venkatesh-ande.github.io/chef-claude/"
+  "homepage":"https://venkatesh-ande.github.io/chef-claude/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
