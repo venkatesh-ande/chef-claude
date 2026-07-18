@@ -34,7 +34,7 @@ return(
           <li key ={index}>{list}</li>
         <button onClick={() =>removeElement(index)}>×</button>
 </div>
-        ) : <h2>Add Reaminder</h2>}
+        ) : <h2><strong>Add Reaminder</strong></h2>}
     </ul>
     </section>
   </div></div>
